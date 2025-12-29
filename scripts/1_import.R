@@ -1,0 +1,6 @@
+data <- read.csv("data/countries_2.csv")
+library(usethis)
+library(gitcreds)
+install.packages("gitcreds")
+create_github_token()
+gitcreds_set()
